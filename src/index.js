@@ -129,7 +129,7 @@ function checkSearch() {
     renderDefaultTopMovies();
   } else {
     moviesContainer.innerHTML = "";
-    getResponse(search, false, 20);
+    getResponse(search, false, 30);
   }
 }
 
