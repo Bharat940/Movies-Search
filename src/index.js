@@ -71,7 +71,6 @@ async function getResponse(movie, exact, limit) {
     const response = await fetch(url, options);
     const result = await response.json();
 
-    console.log(result);
     const movies = result.results || [];
 
     movies.forEach((movie) => {
